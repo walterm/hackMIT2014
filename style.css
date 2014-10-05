@@ -1,0 +1,45 @@
+html {
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+body {
+	height: 100%;
+}
+
+#article {
+	width: 50%;
+	height: 70%;
+	margin: auto;
+	display: block;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#header {
+	text-align: center;
+	font-weight: 100;
+}
+
+.slides {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+[data-slidr="one"] {
+	background-color: red;
+}
+
+[data-slidr="two"] {
+	background-color: blue;
+}
+
+[data-slidr="three"] {
+	background-color: green;
+}
+
+[data-slidr="four"] {
+	background-color: yellow;	
+}
